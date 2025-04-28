@@ -86,7 +86,7 @@ The automations generate structured Excel outputs for further analysis.
 ![Prepayment Excel Output](assets/screenshots/prepayment_flow/prepayment_invoices_extracted_excel.png)
 
 #### Regular Invoice Output (Excel)
-![Regular Excel Output](assets/screenshots/regular_flow/Regular_invoices_extracted_excel (1).png)
+![Regular Excel Output](assets/screenshots/regular_flow/Regular_invoices_extracted_excel.png)
 
 ---
 
