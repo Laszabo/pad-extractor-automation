@@ -1,4 +1,4 @@
-# PAD Extractor Automation for Supplier X
+# PAD Extractor Automation for Supplier Elindus
 
 > **Specialized automated extraction from three different invoice types of Elindus (elindus.be), a Belgian energy supplier, using Power Automate Desktop.**
 
@@ -54,17 +54,17 @@ The automations generate structured Excel outputs for further analysis.
 ![Regular Excel Input GIF](assets/screenshots/regular_flow/regular_excel_input_process.gif)
 
 #### ⚙️ PAD Automation Flow (Regular Invoice)
-![Regular PAD Flow GIF](assets/screenshots/regular_flow/regular_pad_flow.gif)
+![Regular PAD Flow GIF](assets/outputs/regular_output/PDF_extractor_regular_invoices_pad_flow.gif)
 
 ---
 
 ### 2. Prepayment Invoice Processing
 
 #### 📝 Excel Input Preparation (Prepayment Invoice)
-![Prepayment Excel Input GIF](assets/screenshots/prepayment_flow/prepayment_excel_input_process.gif)
+![Prepayment Excel Input GIF](assets/outputs/prepayment_output/PDF_extractor_prepayment_invoices_excel_input.gif)
 
 #### ⚙️ PAD Automation Flow (Prepayment Invoice)
-![Prepayment PAD Flow GIF](assets/screenshots/prepayment_flow/prepayment_pad_flow.gif)
+![Prepayment PAD Flow GIF](assets/outputs/prepayment_output/PDF_extractor_prepayment_invoices_pad_flow.gif)
 
 ---
 
@@ -73,20 +73,20 @@ The automations generate structured Excel outputs for further analysis.
 ### 📄 Sample Invoices (PDF screenshots)
 
 #### Prepayment Invoice Example (Elindus)
-![Prepayment Invoice Screenshot](assets/screenshots/prepayment_flow/prepayment_invoice_screenshot.png)
+![Prepayment Invoice Screenshot](assets/screenshots/prepayment_flow/Elindus_prepayment_bill_sample.png)
 
 #### Regular Invoice Example (Elindus)
-![Regular Invoice Screenshot](assets/screenshots/regular_flow/regular_invoice_screenshot.png)
+![Regular Invoice Screenshot](assets/screenshots/regular_flow/Elindus_regular_bill_sample_1.png)
 
 ---
 
 ### 📈 Sample Excel Outputs
 
 #### Prepayment Invoice Output (Excel)
-![Prepayment Excel Output](assets/screenshots/prepayment_flow/prepayment_excel_output.png)
+![Prepayment Excel Output](assets/screenshots/prepayment_flow/prepayment_invoices_extracted_excel.png)
 
 #### Regular Invoice Output (Excel)
-![Regular Excel Output](assets/screenshots/regular_flow/regular_excel_output.png)
+![Regular Excel Output](assets/screenshots/regular_flow/Regular_invoices_extracted_excel.png)
 
 ---
 
