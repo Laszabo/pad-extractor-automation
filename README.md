@@ -6,14 +6,13 @@
 
 ## 🚀 Project Overview
 
-This project automates the extraction of structured data from batches of **prepayment** and **regular** invoices issued by **Elindus**.
+This project automates the extraction of structured data from two invoice types issued by **Elindus**:
 
-Two custom-designed **Power Automate Desktop (PAD)** workflows were developed:
+- **Prepayment Invoices** (advance billing)
+- **Regular Invoices** (consumption-based billing)
 
-- **Prepayment Invoice Flow** – tailored for advance payment invoices
-- **Regular Invoice Flow** – tailored for consumption and billing invoices
-
-Both flows extract key fields from PDF invoices and compile them into structured Excel files.
+Two customized **Power Automate Desktop (PAD)** workflows were developed to process each invoice type independently.  
+The automations generate structured Excel outputs for further analysis.
 
 ---
 
@@ -21,10 +20,10 @@ Both flows extract key fields from PDF invoices and compile them into structured
 
 | Folder | Content |
 |--------|---------|
-| `/assets/screenshots/prepayment_flow/` | Screenshots & GIF for Prepayment Invoice Automation |
-| `/assets/screenshots/regular_flow/` | Screenshots & GIF for Regular Invoice Automation |
-| `/assets/outputs/prepayment_output/` | Sample Excel outputs for Prepayment Invoices |
-| `/assets/outputs/regular_output/` | Sample Excel outputs for Regular Invoices |
+| `/assets/screenshots/prepayment_flow/` | Screenshots & GIFs related to prepayment invoice automation |
+| `/assets/screenshots/regular_flow/` | Screenshots & GIFs related to regular invoice automation |
+| `/assets/outputs/prepayment_output/` | Sample Excel outputs for prepayment invoices |
+| `/assets/outputs/regular_output/` | Sample Excel outputs for regular invoices |
 
 ---
 
@@ -33,61 +32,75 @@ Both flows extract key fields from PDF invoices and compile them into structured
 - **Power Automate Desktop** (Microsoft)
 - **Excel** (.xlsx format)
 - **PDF Parsing** via PAD native actions
-- **ScreenToGif** for recording process demos
+- **ScreenToGif** for animated process demos
 
 ---
 
 ## 🧩 Key Features
 
-- **Dual automation flows** adapted for invoice type
-- **Batch processing** of multiple PDFs
-- **Field-level mapping** for supplier-specific invoice formats
-- **Error handling** for unexpected file types
-- **Structured Excel outputs** ready for analysis
+- **Separate automation flows** per invoice type
+- **Excel mapping preparation** prior to extraction
+- **Error handling and batch processing**
+- **Adaptation to Elindus-specific invoice formats**
+- **Structured Excel outputs optimized for reporting**
 
 ---
 
-## 📽️ Automation Flows in Action
+## 📽️ End-to-End Process Demonstrations
 
-### Prepayment Invoice Flow Demo
-![Prepayment Flow Demo](assets/screenshots/prepayment_flow/prepayment_flow_demo.gif)
+### 1. Regular Invoice Processing
 
-### Regular Invoice Flow Demo
-![Regular Flow Demo](assets/screenshots/regular_flow/regular_flow_demo.gif)
+#### 📝 Excel Input Preparation (Regular Invoice)
+![Regular Excel Input GIF](assets/screenshots/regular_flow/regular_excel_input_process.gif)
 
----
-
-## 🖼️ Selected Screenshots
-
-### Prepayment Flow Overview
-![Prepayment Overview](assets/screenshots/prepayment_flow/prepayment_flow_overview.png)
-
-### Regular Flow Overview
-![Regular Overview](assets/screenshots/regular_flow/regular_flow_overview.png)
+#### ⚙️ PAD Automation Flow (Regular Invoice)
+![Regular PAD Flow GIF](assets/screenshots/regular_flow/regular_pad_flow.gif)
 
 ---
 
-## 📈 Sample Excel Output
+### 2. Prepayment Invoice Processing
 
-### Prepayment Invoice Output
-![Prepayment Excel Output](assets/screenshots/prepayment_flow/prepayment_excel_sample.png)
+#### 📝 Excel Input Preparation (Prepayment Invoice)
+![Prepayment Excel Input GIF](assets/screenshots/prepayment_flow/prepayment_excel_input_process.gif)
 
-### Regular Invoice Output
-![Regular Excel Output](assets/screenshots/regular_flow/regular_excel_sample.png)
+#### ⚙️ PAD Automation Flow (Prepayment Invoice)
+![Prepayment PAD Flow GIF](assets/screenshots/prepayment_flow/prepayment_pad_flow.gif)
+
+---
+
+## 🖼️ Example Invoices and Outputs
+
+### 📄 Sample Invoices (PDF screenshots)
+
+#### Prepayment Invoice Example (Elindus)
+![Prepayment Invoice Screenshot](assets/screenshots/prepayment_flow/prepayment_invoice_screenshot.png)
+
+#### Regular Invoice Example (Elindus)
+![Regular Invoice Screenshot](assets/screenshots/regular_flow/regular_invoice_screenshot.png)
+
+---
+
+### 📈 Sample Excel Outputs
+
+#### Prepayment Invoice Output (Excel)
+![Prepayment Excel Output](assets/screenshots/prepayment_flow/prepayment_excel_output.png)
+
+#### Regular Invoice Output (Excel)
+![Regular Excel Output](assets/screenshots/regular_flow/regular_excel_output.png)
 
 ---
 
 ## 🎯 Why This Automation Matters
 
-Manually processing invoices is:
-- Time-consuming
-- Prone to data entry errors
-- Inefficient for scaling
+Manual invoice processing:
+- Is **time-consuming**  
+- Leads to **data entry errors**  
+- Delays **financial reporting**
 
-By **tailoring the automation** to the supplier's invoice variations, this solution saves:
-- Up to **80%** manual processing time
-- **Improves data reliability**
-- **Simplifies reporting and post-processing**
+By tailoring the automation to **Elindus' invoice templates**, this solution:
+- Reduces manual input time by up to **80%**
+- Improves **data accuracy**
+- Provides **ready-to-analyze Excel outputs**
 
 ---
 
@@ -101,4 +114,7 @@ By **tailoring the automation** to the supplier's invoice variations, this solut
 6. Enters the extracted output into Excel automatically.
 
 ---
+
+
+
 
