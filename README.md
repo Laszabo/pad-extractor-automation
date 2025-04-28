@@ -51,7 +51,7 @@ The automations generate structured Excel outputs for further analysis.
 ### 1. Regular Invoice Processing
 
 #### 📝 Excel Input Preparation (Regular Invoice)
-![Regular Excel Input GIF](assets/screenshots/regular_flow/regular_excel_input_process.gif)
+![Regular Excel Input GIF](assets/outputs/regular_output/PDF_extractor_regular_invoices_excel_input.gif)
 
 #### ⚙️ PAD Automation Flow (Regular Invoice)
 ![Regular PAD Flow GIF](assets/outputs/regular_output/PDF_extractor_regular_invoices_pad_flow.gif)
