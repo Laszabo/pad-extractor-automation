@@ -95,9 +95,10 @@ By **tailoring the automation** to the supplier's invoice variations, this solut
 
 1. Opens **Power Automate Desktop**.
 2. Imports the **Prepayment Flow** or **Regular Flow** based on the invoice type.
-3. Sets the input folder containing the PDFs.
+3. Checks the input folder containing the PDFs.
 4. Runs the automation.
-5. Collects the generated Excel output for reporting.
+5. Extracts the data
+6. Enters the extracted output into Excel automatically.
 
 ---
 
