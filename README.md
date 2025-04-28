@@ -1,12 +1,12 @@
 # PAD Extractor Automation for Supplier X
 
-> **Specialized automated extraction from three different invoice types of Supplier X using Power Automate Desktop.**
+> **Specialized automated extraction from three different invoice types of Elindus (elindus.be), a Belgian energy supplier, using Power Automate Desktop.**
 
 ---
 
 ## 🚀 Project Overview
 
-This project automates the extraction of structured data from batches of **prepayment** and **regular** invoices issued by **Supplier X**.
+This project automates the extraction of structured data from batches of **prepayment** and **regular** invoices issued by **Elindus**.
 
 Two custom-designed **Power Automate Desktop (PAD)** workflows were developed:
 
@@ -91,13 +91,13 @@ By **tailoring the automation** to the supplier's invoice variations, this solut
 
 ---
 
-## 📥 How to Use
+## 📥 How it Works
 
-1. Open **Power Automate Desktop**.
-2. Import the **Prepayment Flow** or **Regular Flow** based on the invoice type.
-3. Set the input folder containing the PDFs.
-4. Run the automation.
-5. Collect the generated Excel output for reporting.
+1. Opens **Power Automate Desktop**.
+2. Imports the **Prepayment Flow** or **Regular Flow** based on the invoice type.
+3. Sets the input folder containing the PDFs.
+4. Runs the automation.
+5. Collects the generated Excel output for reporting.
 
 ---
 
