@@ -61,7 +61,7 @@ The automations generate structured Excel outputs for further analysis.
 ### 2. Prepayment Invoice Processing
 
 #### 📝 Excel Input Preparation (Prepayment Invoice)
-![Prepayment Excel Input GIF](assets/outputs/prepayment_output/PDF_extractor_prepayment_invoices_excel_input.gif)
+![Prepayment Excel Input GIF](assets/outputs/prepayment_output/prepayment_invoices_extracted_excel.gif)
 
 #### ⚙️ PAD Automation Flow (Prepayment Invoice)
 ![Prepayment PAD Flow GIF](assets/outputs/prepayment_output/PDF_extractor_prepayment_invoices_pad_flow.gif)
